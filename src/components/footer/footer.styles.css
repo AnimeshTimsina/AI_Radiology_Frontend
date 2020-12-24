@@ -1,0 +1,16 @@
+.footer-container{
+    position: absolute;
+    bottom: 0;
+    width:100%;
+    padding:10px 10px;
+    background: rgb(228, 225, 225);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container > span{
+    text-align: center;
+    font-size:10px;
+    text-transform: uppercase;
+}

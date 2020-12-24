@@ -1,0 +1,44 @@
+.custom-button-section {
+    display:flex;
+    flex-direction:column;
+    font-family: Helvetica Neue;
+    font-style: normal;
+
+}
+
+.custom-button {
+    background: #00A0A0;
+    border-radius: 5px;
+    width: 130px;
+    height: 32px; 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.2s all ease;
+}
+.custom-button:hover {
+  background:rgb(0, 66, 0);
+}
+
+.custom-button > span{
+    font-weight: bold;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+
+.button-info{
+    margin-top:5px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.035em;
+    color:rgba(4, 88, 8, 0.6);
+    text-indent: -0.3em;
+    cursor:pointer;
+}
+.button-info :hover{
+    color: #dc3905;
+    /* font-weight:550; */
+}

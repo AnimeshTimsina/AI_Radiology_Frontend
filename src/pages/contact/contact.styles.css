@@ -1,0 +1,33 @@
+.contact{
+    display:flex;
+    flex-direction: column;
+    padding:40px 20px;
+    font-family: Helvetica Neue;
+}
+
+
+
+
+.contact-title{
+    display:flex;
+    justify-content: center;
+    margin:10px;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    margin-bottom:20px;
+}
+
+.contact-title h4{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    display: flex;
+    letter-spacing: 0.1em;  
+}
+
+.contact-subtitle span{
+    font-size:13px;
+    letter-spacing: 0.08em;
+
+}

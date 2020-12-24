@@ -1,0 +1,58 @@
+.homepage{
+    padding:30px 10px 50px 10px;
+    display:flex;
+    flex-direction: column;
+    /* background-color: rgb(245, 241, 241); */
+}
+
+.homepage-title{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: Helvetica Neue;
+    font-style: normal;
+}
+
+.homepage-title h2{
+    font-weight: 450;
+    font-size: 17px;
+    line-height: 27px;
+    letter-spacing: 0.085em;
+}
+
+.homepage-title h4{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 27px;
+    letter-spacing: 0.085em;
+    color:rgb(37, 37, 37);
+}
+
+.homepage-title h4 > span{
+    font-weight:500;
+    color:#dc3905;
+    cursor: pointer;
+}
+
+.homepage-title h4 > span:hover{
+    color:rgba(47, 99, 4, 0.74);
+}
+
+.button-section{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.button-section > div{
+    padding:20px; 
+}
+
+
+@media screen and (min-width:1000px) {
+    .homepage-title h2{
+        width:55%;
+    }
+}

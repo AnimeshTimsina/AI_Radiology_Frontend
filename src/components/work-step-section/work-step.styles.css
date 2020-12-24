@@ -1,0 +1,18 @@
+.workstep{
+    display:flex;
+    flex-direction: column;
+}
+.workstep-title h2{
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    margin:10px;
+}
+.workstep-body{
+    padding:2px 20px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,36 @@
+.team-section {
+    margin:20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-section > div{
+    margin:10px;
+}
+
+.team-section-title{
+    display: flex;
+
+}
+.team-section-title > span{
+    font-family: Helvetica Neue;
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0.1em;  
+}
+
+.team-content {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.team-content > div{
+    margin:10px 40px;
+}

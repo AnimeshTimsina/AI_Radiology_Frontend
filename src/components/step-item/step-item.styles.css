@@ -1,0 +1,37 @@
+.step-item-container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.circular-logo{
+    border-radius: 50%;
+    background: rgb(3, 187, 43);    
+    padding:10px 20px;
+    margin:10px;
+}
+
+.circular-logo span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    color:white;
+    font-weight:900;
+}
+
+.step-item-title h4{
+    font-size:13px;
+    font-weight:500;
+}
+
+.step-item-subtitle{
+    width:85%;
+}
+
+.step-item-subtitle span{
+    font-size:11px;
+    color:rgb(102, 101, 101);
+
+}
+
